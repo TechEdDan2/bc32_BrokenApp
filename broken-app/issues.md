@@ -67,3 +67,23 @@ Resolved
 
 **Resolution/Notes:**  
 Since the results were all pending promises, I needed to await the data to be returned, so I added a new line that waited for all of the promisses to be fulfilled, and save that in a new array named userRes. 
+
+## [2025-08-12]
+### Issue Title - Refactoring Code
+**Description:**  
+Not so much an error as some reorganizing / refactoring of the code base to clean it up (I hope)
+
+**Steps to Reproduce:**  
+N/A
+
+**Expected Result:**  
+It should display the name and bio of the two users, but now the source code is a bit better organized.
+
+**Actual Result:**  
+N/A
+
+**Status:**  
+Resolved / Completed
+
+**Resolution/Notes:**  
+The last step in this assignment is to refactor the code follow some of the recommendations from the course so far. I am going to model it after the other examples in this Unit. 
