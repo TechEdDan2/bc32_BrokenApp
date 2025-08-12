@@ -52,6 +52,7 @@ async function myWebCat(url) {
                 domainName = domainName.slice(4);
             }
         } catch (e) {
+            console.log(`Error parsing URL: ${url}: ${e}`);
             domainName = 'output';
         }
         // Remove the TLD (e.g., .com, .org) for the filename
